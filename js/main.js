@@ -17,6 +17,7 @@
 
 //TASK ONE
 console.log("Begin Task 1");
+console.log("");
 
 function taskOne(x,y) {
 x = prompt('Enter 1st #')
@@ -31,15 +32,17 @@ if(x>y) {
 taskOne();
 
 //TASK TWO
+console.log("");
 console.log("Begin Task 2");
-
+console.log("");
 var numbers = [128,0,255];
 numbers.sort();
 alert(numbers);
 
 //TASK THREE
+console.log("");
 console.log("Begin Task 3");
-
+console.log("");
 function taskThree (a,b,c,d,e) {
   a = 5;
   b = 24;
@@ -65,8 +68,9 @@ function taskThree (a,b,c,d,e) {
 taskThree();
 
 //TASK FOUR
+console.log("");
 console.log("Begin Task 4");
-
+console.log("");
 for (var i = 0; i<=15;i++)
 {
   if(i%2 == 1){
@@ -77,11 +81,13 @@ for (var i = 0; i<=15;i++)
 }
 
 //TASK FIVE
+console.log("");
 console.log("Begin Task 5");
+console.log("");
 
 for (var i = 0; i<=100;i++)
 {
-  if(i%3 == 0){
+  if(i%3 === 0){
     console.log("Fizz");
   } else if(i%5 == 0) {
     console.log("Buzz");
@@ -91,12 +97,13 @@ for (var i = 0; i<=100;i++)
 }
 
 //TASK SIX
+console.log("");
 console.log("Begin Task 6");
-
+console.log("");
 function taskSix () {
   var x = 0;
   for (var i = 1; i<=1000;i++){
-    if(i%3 == 0){
+    if(i%3 === 0){
       x++;
     }
   }
@@ -105,8 +112,9 @@ function taskSix () {
 taskSix();
 
 //TASK SEVEN
+console.log("");
 console.log("Begin Task 7");
-
+console.log("");
 function taskSeven () {
   console.log("    1    ");
   console.log("   121   ");
@@ -117,8 +125,9 @@ function taskSeven () {
 taskSeven();
 
 //TASK EIGHT
+console.log("");
 console.log("Begin Task 8");
-
+console.log("");
 function taskEight () {
   console.log("    1    ");
   console.log("   121   ");
