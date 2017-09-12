@@ -59,6 +59,7 @@ function taskThree (a,b,c,d,e) {
     alert('\"e\" is the greatest number: ' + e)
   }
 
+
 }
 
 taskThree();
@@ -66,7 +67,7 @@ taskThree();
 //TASK FOUR
 console.log("Begin Task 4");
 
-for (var i = 0; i<15;i++)
+for (var i = 0; i<=15;i++)
 {
   if(i%2 == 1){
     console.log("ODD! " + i)
@@ -94,7 +95,7 @@ console.log("Begin Task 6");
 
 function taskSix () {
   var x = 0;
-  for (var i = 0; i<=1000;i++){
+  for (var i = 1; i<=1000;i++){
     if(i%3 == 0){
       x++;
     }
